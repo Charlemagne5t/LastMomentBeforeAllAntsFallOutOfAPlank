@@ -34,4 +34,14 @@ public class SolutionTest {
 
         Assert.assertEquals(expected, actual);
     }
+    @Test
+    public void getLastMomentTest4() {
+        int n = 20;
+        int[] left = {4,7,15};
+        int[] right = {9,3,13,10};
+        int expected = 17;
+        int actual = new Solution().getLastMoment(n, left, right);
+
+        Assert.assertEquals(expected, actual);
+    }
 }
